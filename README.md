@@ -11,7 +11,7 @@ dY/dt = -XZ+\rho X-Y
 dZ/dt = XY-\beta Z
 
 
-A perceptron network and a RNN network was created. The RNN suprosingly performed worse and took alot more epochs for training than the RNN did for a similar prediction accuracy.
+A perceptron network and a RNN network was created. The RNN performed worse and took alot more epochs for training than the RNN did for a similar prediction accuracy.
 
 ### Next steps
 
