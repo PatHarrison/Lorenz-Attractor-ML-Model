@@ -4,11 +4,11 @@
 
 Create a ANN model to predict the Lorenz system. It is nonlinear, non-periodic, three-dimensional and deterministic system given by:
 
-dX/dt &= \sigma(Y-X)
+dX/dt = \sigma(Y-X)
 	
-dY/dt &= -XZ+\rho X-Y
+dY/dt = -XZ+\rho X-Y
 	
-dZ/dt &= XY-\beta Z
+dZ/dt = XY-\beta Z
 
 
 A perceptron network and a RNN network was created. The RNN suprosingly performed worse and took alot more epochs for training than the RNN did for a similar prediction accuracy.
